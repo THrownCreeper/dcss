@@ -21,7 +21,7 @@
 
 - [Install](#install)
 - [Documentation](#documentation)
-- [What's included](#whats-included)
+- [Creator](#creator)
 - [Copyright and license](#copyright-and-license)
 
 

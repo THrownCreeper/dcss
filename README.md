@@ -30,7 +30,7 @@
 Several install options are available:
 
 - Clone the repo: `git clone https://github.com/freezy0001/dcss.git`
-- Link with [cdn](https://www.jsdelivr.com/): `<link href="https://cdn.jsdelivr.net/freezy0001/dcss/dist/css/d.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">`
+- Link with [cdn](https://www.jsdelivr.com/): `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freezy-0001/dcss/dist/css/d.min.css" integrity="sha384-qtoT/TpmVai9KuwydVBbrjfX5dNmeqnmieuS5cx5jB+hYl+Z8RZnCYUbon1BVPfz" crossorigin="anonymous">`
 
 
 ## Documentation

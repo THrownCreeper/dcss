@@ -59,11 +59,11 @@ We use a subset of all colors to create a smaller color palette for generating c
 
 #### Text-only colors
 
-These colors are only can be used on texts.
+These color classes are only can be used on texts.
 
 <img src="https://kepkuldes.com/images/2e401b1b4203c81d5244eb5e8f56d937.png" alt="dCSS logo" width="400" height="26">
 
-`.dcolor-blue` `.dcolor-red` `.dcolor-green` `.dcolor-grey` `.dcolor-dark` `.dcolor-darkr` `.dcolor-black`
+`.dcolor-blue` `.dcolor-red` `.dcolor-green` `.dcolor-grey` `.dcolor-dark` `.dcolor-darkr` `.dcolor-black` `.dcolor-white`
 
 ### Text
 

@@ -117,6 +117,7 @@ In need of a button, but not the hefty background colors they bring? Replace the
 If you have been around on Discord for a bit, chances are you have seen these special messages, often sent by bots. They can have a colored border, embedded images, text fields, and other fancy properties.
 
 <img src="https://kepkuldes.com/images/5cea7c0f74de56885372a8d86e2e2f4c.png" alt="dCSS logo" width="450" height="600">
+
 ```
 <div class="embed embed-primary">
     <div class="embed-heading">
@@ -169,6 +170,7 @@ Create consistent cross-browser and cross-device checkboxes and radios with our 
 Switch uses the `.dswitch` and `.dtoggle` classes to render a toggle switch.
 
 <img src="https://kepkuldes.com/images/1df67c80bab015ec02eefee8b441925f.png" alt="dCSS logo" width="50" height="80">
+
 ```
 <input type="checkbox" class="dswitch" id="switch1"/>
 <label class="dtoggle" for="switch1"></label>
@@ -183,6 +185,7 @@ Customize the native `<select>`s with custom CSS that changes the element's init
 Custom `<select>` menus need only a custom class, `.dselect` to trigger the custom styles. Custom styles are limited to the `<select>`s initial appearance and cannot modify the `<option>`s due to browser limitations.
 
 <img src="https://kepkuldes.com/images/7036a101308a738dff4dfc040a6c3ddd.png" alt="dCSS logo" width="370" height="280">
+
 ```
 <select name="select" class="dselect">
     <option value="option1">Option 1</option>
@@ -199,6 +202,7 @@ Use our custom range inputs for consistent cross-browser styling and built-in cu
 Create custom `<input type="range">` controls with `.dslider`. The track (the background) and thumb (the value) are both styled to appear the same across browsers.
 
 <img src="https://kepkuldes.com/images/9688633fc86c59df6f2fda96313c4924.png" alt="dCSS logo" width="570" height="180">
+
 ```
 <input type="range" min="1" max="100" value="25" class="dslider dslider-primary">
 <input type="range" min="1" max="100" value="50" class="dslider dslider-secondary">

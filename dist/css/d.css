@@ -1,0 +1,483 @@
+@import url('http://fonts.cdnfonts.com/css/whitney-2?styles=68522,68523,68521,68520,68524,68526,68519,68525,68527');
+ * {
+     font-family: 'Whitney', sans-serif !important;
+}
+ :root {
+     --red: #F04747;
+     --darkred: #D84040;
+     --darkrred: #C03939;
+     --green: #43B581;
+     --darkgreen: #3CA374;
+     --darkrgreen: #348E64;
+     --blue: #7289DA;
+     --darkblue: #677BC4;
+     --darkrblue: #5B6EAE;
+     --bluelink: #00b0f4;
+     --white: #ffffff;
+     --selecttext: #dcddde;
+     --grey: #99AAB5;
+     --darkgrey: #72767D;
+     --radioactive: #262a2e;
+     --radiohover: #26292c;
+     --lightdark: #68727F;
+     --bitdark: #5E6772;
+     --switchactive: #64897E;
+     --switchdisabled: #72767D;
+     --dark: #2C2F33;
+     --selectbg: #303339;
+     --selectborder: #282A2F;
+     --embedbg: #2F3136;
+     --darkr: #23272A;
+     --radiobg: #202225;
+     --black: #000000;
+}
+ .dcolor-blue {
+     color: var(--blue);
+}
+ .dcolor-white {
+     color: var(--white);
+}
+ .dcolor-grey {
+     color: var(--grey);
+}
+ .dcolor-dark {
+     color: var(--dark);
+}
+ .dcolor-darkr {
+     color: var(--darkr);
+}
+ .dcolor-black {
+     color: var(--black);
+}
+ .dcolor-red {
+     color: var(--red);
+}
+ .dcolor-green {
+     color: var(--green);
+}
+ .dbg-dark {
+     background-color: var(--dark);
+}
+ a {
+     color: var(--bluelink);
+}
+ button.dbtn {
+     padding: 8px 18px;
+     background-color: var(--blue);
+     border-radius: 3px;
+     border: none;
+     color: var(--white);
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 16px;
+     outline: none;
+}
+ button.dbtn:active {
+     background-color: var(--darkrblue) !important;
+}
+ button.dbtn-primary {
+     background-color: var(--blue);
+     color: var(--white);
+     outline: none;
+}
+ button.dbtn-primary:active {
+     background-color: var(--darkrblue) !important;
+}
+ button.dbtn-secondary {
+     background-color: var(--darkgrey);
+     color: var(--white);
+     outline: none;
+}
+ button.dbtn-secondary:hover {
+     background-color: var(--lightdark) !important;
+     color: var(--white);
+}
+ button.dbtn-secondary:active {
+     background-color: var(--bitdark) !important;
+}
+ button.dbtn-success {
+     background-color: var(--green);
+     color: var(--white);
+     outline: none;
+}
+ button.dbtn-success:hover {
+     background-color: var(--darkgreen) !important;
+     color: var(--white);
+}
+ button.dbtn-success:active {
+     background-color: var(--darkrgreen) !important;
+}
+ button.dbtn-danger {
+     background-color: var(--red);
+     color: var(--white);
+}
+ button.dbtn-danger:hover {
+     background-color: var(--darkred) !important;
+     color: var(--white);
+}
+ button.dbtn-danger:active {
+     background-color: var(--darkrred) !important;
+}
+ button.dbtn-primary-outlined {
+     background-color: rgba(0, 0, 0, 0);
+     border: 1px solid var(--blue);
+     color: var(--blue);
+     outline: none;
+}
+ button.dbtn-primary-outlined:hover {
+     background-color: rgba(0, 0, 0, 0) !important;
+     border: 1px solid var(--blue) !important;
+     color: var(--blue) !important;
+}
+ button.dbtn-primary-outlined:active {
+     background-color: rgba(114, 137, 218, 0.16) !important;
+     border: 1px solid var(--blue) !important;
+     color: var(--blue) !important;
+}
+ button.dbtn-secondary-outlined {
+     background-color: rgba(0, 0, 0, 0);
+     border: 1px solid var(--grey);
+     color: var(--grey);
+     outline: none;
+}
+ button.dbtn-secondary-outlined:hover {
+     background-color: rgba(0, 0, 0, 0) !important;
+     border: 1px solid var(--grey) !important;
+     color: var(--grey) !important;
+}
+ button.dbtn-secondary-outlined:active {
+     background-color: rgba(153, 170, 181, 0.16) !important;
+     border: 1px solid var(--grey) !important;
+     color: var(--grey) !important;
+}
+ button.dbtn-success-outlined {
+     background-color: rgba(0, 0, 0, 0);
+     border: 1px solid var(--green);
+     color: var(--green);
+     outline: none;
+}
+ button.dbtn-success-outlined:hover {
+     background-color: rgba(0, 0, 0, 0) !important;
+     border: 1px solid var(--green) !important;
+     color: var(--green) !important;
+}
+ button.dbtn-success-outlined:active {
+     background-color: rgba(67, 181, 129, 0.16) !important;
+     border: 1px solid var(--green) !important;
+     color: var(--green) !important;
+}
+ button.dbtn-danger-outlined {
+     background-color: rgba(0, 0, 0, 0);
+     border: 1px solid var(--red);
+     color: var(--red);
+     outline: none;
+}
+ button.dbtn-danger-outlined:hover {
+     background-color: rgba(0, 0, 0, 0) !important;
+     border: 1px solid var(--red) !important;
+     color: var(--red) !important;
+}
+ button.dbtn-danger-outlined:active {
+     background-color: rgba(240, 71, 71, 0.16) !important;
+     border: 1px solid var(--red) !important;
+     color: var(--red) !important;
+}
+ button.dbtn:hover {
+     transition-duration: 0.17s;
+     background-color: var(--darkblue);
+}
+ .dfw-normal {
+     font-weight: 100;
+}
+ .dfw-light {
+     font-family: 'Whitney Light', sans-serif !important;
+     font-weight: 100;
+}
+ .dfw-bold {
+     font-weight: 600;
+}
+ .dfst-italic {
+     font-style: italic;
+}
+ .dfst-normal {
+     font-style: normal;
+}
+ .embed {
+     background-color: var(--embedbg);
+     display: inline-block;
+     padding: 9px 14px;
+     border-radius: 4px;
+     border-left: 4px solid var(--blue);
+     color: var(--white);
+     position: relative;
+}
+ .embed-primary {
+     border-left: 4px solid var(--blue);
+}
+ .embed-secondary {
+     border-left: 4px solid var(--grey);
+}
+ .embed-success {
+     border-left: 4px solid var(--green);
+}
+ .embed-danger {
+     border-left: 4px solid var(--red);
+}
+ .embed .embed-heading {
+     font-size: 1.40rem;
+     margin: 4px 0px 8px 0px;
+}
+ .embed .embed-footer {
+     font-size: 0.75rem;
+     margin: 8px 0px 0px 0px;
+     color: #dcddde;
+}
+ .embed .embed-img img {
+     border-radius: 4px;
+     margin: 8px 0px 2px 0px;
+}
+ @keyframes tooltip_animation {
+     0% {
+         opacity: 0;
+         transform: scale(0);
+    }
+     100% {
+         opacity: 1;
+         transform: scale(1);
+    }
+}
+ button[data-tooltip]:hover::after {
+     content: attr(data-tooltip);
+     position: absolute;
+     margin-top: -48px;
+     margin-left: -65px;
+     background-color: rgb(8, 8, 8);
+     padding: 8px 10px;
+     border-radius: 6px;
+     text-align: center;
+     animation: tooltip_animation 0.1s;
+}
+ .dradio {
+     display: block;
+     position: relative;
+     padding-left: 35px;
+     margin-bottom: 12px;
+     padding: 14px 50px;
+     cursor: pointer;
+     border-radius: 4px;
+     background-color: var(--radiobg);
+     font-size: 17px;
+     color: var(--white);
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+ .dradio input {
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+}
+ input[type="radio"]:checked+label {
+     background-color: red !important;
+}
+ .dcheckmark {
+     position: absolute;
+     margin-top: -1px;
+     margin-left: -35px;
+     text-align: center;
+     height: 23px;
+     width: 23px;
+     display: block;
+     background-color: #eee;
+     border-radius: 50%;
+}
+ .dradio input ~ .dcheckmark {
+     width: 17px;
+     height: 17px;
+     background-color: var(--radiobg);
+     border: 2.5px solid var(--white);
+}
+ .dcheckmark:after {
+     content: "";
+     position: absolute;
+     display: none;
+}
+ .dradio input:checked ~ .dcheckmark:after {
+     display: block;
+}
+ .dradio .dcheckmark:after {
+     top:-0.5px;
+     left:-0.55px;
+     width: 11px;
+     height: 11px;
+     border-radius: 50%;
+     border: 3.6px solid var(--radiobg);
+     background: var(--blue);
+}
+ .dradio:hover {
+     background-color: var(--radiohover);
+}
+ .dradio:hover .dcheckmark:after {
+     border: 3.6px solid var(--radiohover);
+}
+ .dradio:active {
+     background-color: var(--radioactive);
+}
+ .dradio:active .dcheckmark:after {
+     border: 3.6px solid var(--radiohover);
+}
+ .dradio:hover input ~ .dcheckmark {
+     width: 17px;
+     height: 17px;
+     background-color: var(--radiohover);
+     border: 2.5px solid var(--white);
+}
+ .dswitch[type=checkbox]{
+     height: 0;
+     width: 0;
+     visibility: hidden;
+}
+ .dtoggle {
+     cursor: pointer;
+     text-indent: -9999px;
+     width: 46px;
+     height: 28px;
+     background: var(--switchdisabled);
+     display: block;
+     border-radius: 100px;
+     position: relative;
+     transition: 0.1s;
+}
+ .dtoggle:after {
+     content: '';
+     position: absolute;
+     top: 3px;
+     left: 2.5px;
+     width: 22px;
+     height: 22px;
+     background: #fff;
+     border-radius: 90px;
+     transition: 0.25s;
+}
+ .dswitch:checked + .dtoggle {
+     background: var(--green);
+}
+ .dswitch + .dtoggle:active {
+     transition: 0.25s;
+     background: var(--switchactive);
+}
+ .dswitch:checked + .dtoggle:after {
+     left: calc(100% - 3px);
+     transform: translateX(-100%);
+}
+ .dtoggle:active:after {
+     width: 32px;
+}
+ .dselect {
+     background-color: var(--selectbg);
+     color: var(--selecttext);
+     font-size: 20px;
+     font-family: 'Whitney Light', sans-serif !important;
+     font-weight: 100 !important;
+     border-radius: 4px;
+     border-color: var(--selectborder);
+     outline: none;
+     padding: 8px 10px;
+     background: url(https://cdn.discordapp.com/attachments/628015993091915777/796190280251998208/arrow.svg) no-repeat right var(--selectbg);
+     padding-right: 50px;
+     -webkit-appearance: none;
+}
+ .dselect * {
+     border-color: var(--selectborder);
+     font-family: 'Whitney Light', sans-serif !important;
+     font-weight: 100 !important;
+     margin: 100px;
+}
+ select.dselect option:checked {
+     background: linear-gradient(#fff, #fff);
+     background-color: #26272B !important;
+     font-style: normal;
+     color: var(--selecttext) !important;
+}
+ .dselect:focus {
+     border-radius: 4px 4px 0 0 !important;
+}
+ input[type="range"].dslider {
+     -webkit-appearance: none;
+     width: 100%;
+     height: 8px;
+     background: var(--blue);
+     outline: none;
+     border-radius: 15px;
+     opacity: 1;
+     -webkit-transition: .2s;
+     transition: opacity .2s;
+}
+ input[type="range"].dslider:hover {
+     opacity: 1;
+}
+ input[type="range"].dslider::-webkit-slider-thumb {
+     -webkit-appearance: none;
+     appearance: none;
+     width: 12px;
+     border-radius: 4px;
+     border:4px;
+     height: 30px;
+     background: var(--white);
+     cursor: ew-resize;
+}
+ input[type="range"].dslider::-moz-range-thumb {
+     -webkit-appearance: none;
+     appearance: none;
+     width: 12px;
+     border-radius: 4px;
+     border:4px;
+     height: 30px;
+     background: var(--white);
+     cursor: ew-resize;
+}
+ input[type="range"].dslider-primary {
+     -webkit-appearance: none;
+     width: 100%;
+     height: 8px;
+     background: var(--blue) !important;
+     outline: none;
+     border-radius: 15px;
+     opacity: 1;
+     -webkit-transition: .2s;
+     transition: opacity .2s;
+}
+ input[type="range"].dslider-secondary {
+     -webkit-appearance: none;
+     width: 100%;
+     height: 8px;
+     background: var(--darkgrey) !important;
+     outline: none;
+     border-radius: 15px;
+     opacity: 1;
+     -webkit-transition: .2s;
+     transition: opacity .2s;
+}
+ input[type="range"].dslider-success {
+     -webkit-appearance: none;
+     width: 100%;
+     height: 8px;
+     background: var(--green) !important;
+     outline: none;
+     border-radius: 15px;
+     opacity: 1;
+     -webkit-transition: .2s;
+     transition: opacity .2s;
+}
+ input[type="range"].dslider-danger {
+     -webkit-appearance: none;
+     width: 100%;
+     height: 8px;
+     background: var(--red) !important;
+     outline: none;
+     border-radius: 15px;
+     opacity: 1;
+     -webkit-transition: .2s;
+     transition: opacity .2s;
+}
